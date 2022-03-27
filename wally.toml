@@ -1,0 +1,13 @@
+[package]
+name = "TemplateGame"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Knit = "sleitnick/knit@^1.2"
+Loader = "sleitnick/loader@1.0.2"
+Component = "sleitnick/component@2.4.4"
+Spring = "eldonwilliams/spr@0.2.1"
+[server-dependencies]
+ProfileService = "rudy-dev/profileservice@1.0.0"
